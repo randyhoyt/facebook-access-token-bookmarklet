@@ -7,4 +7,4 @@ Facebook has a tool that generates *short-lived* access tokens for all your apps
 1. Click the bookmarklet and specify these values (which you should have handy) in the two prompts:
     1. App ID
     1. App Secret
-1. The browser will load a Facebook response with the long-lived token in it. It will be the long string after the <code>access_token=</code> and before the <code>&expires</code>.
+1. The browser will load a Facebook response with the long-lived token included in it. It will be the long string after the <code>access_token=</code> and before the <code>&expires</code>.
