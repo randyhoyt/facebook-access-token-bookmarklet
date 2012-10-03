@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Access Token Bookmarklet</title>
+</head>
+<body>
+    <p><a href="javascript: access_token=encodeURIComponent(window.getSelection());if(!access_token) void(access_token=prompt('Access Token: '));void(app_id=prompt('App ID: '));void(app_secret=prompt('App Secret: '));location.href='https://graph.facebook.com/oauth/access_token?client_id='+app_id+'&client_secret='+app_secret+'&grant_type=fb_exchange_token&fb_exchange_token='+access_token;">Facebook Access Token</a></p>
+</body>
+<html>
