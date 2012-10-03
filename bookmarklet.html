@@ -4,6 +4,10 @@
     <title>Facebook Access Token Bookmarklet</title>
 </head>
 <body>
-    <p><a href="javascript: access_token=encodeURIComponent(window.getSelection());if(!access_token) void(access_token=prompt('Access Token: '));void(app_id=prompt('App ID: '));void(app_secret=prompt('App Secret: '));location.href='https://graph.facebook.com/oauth/access_token?client_id='+app_id+'&client_secret='+app_secret+'&grant_type=fb_exchange_token&fb_exchange_token='+access_token;">Facebook Access Token</a></p>
+    <h1>Facebook Access Token Bookmarklet</h1>
+<p style="width: 30em;">This bookmarklet converts a short-lived Facebook access token into a long-lived access token. <a href="https://github.com/randyhoyt/facebook-access-token-bookmarklet">Learn More</a></p>
+
+<p style="width: 30em;">To install the bookmarklet, drag the following link to the Bookmarks bar in your browser:</p>
+    <ul><li><a href="javascript: access_token=encodeURIComponent(window.getSelection());if(!access_token) void(access_token=prompt('Access Token: '));void(app_id=prompt('App ID: '));void(app_secret=prompt('App Secret: '));location.href='https://graph.facebook.com/oauth/access_token?client_id='+app_id+'&client_secret='+app_secret+'&grant_type=fb_exchange_token&fb_exchange_token='+access_token;">Get Access Token</a></li></ul>
 </body>
 <html>
